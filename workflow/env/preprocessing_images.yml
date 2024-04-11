@@ -1,0 +1,12 @@
+name: preprocessing_images
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - default
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - pillow=8.4
+

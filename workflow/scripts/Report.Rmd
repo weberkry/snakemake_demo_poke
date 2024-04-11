@@ -1,0 +1,15 @@
+output:
+  pdf_document:
+    fig_height: 3
+    latex_engine: pdflatex
+header-includes:
+   - \usepackage{helvet}
+   - \renewcommand*\familydefault{\sfdefault}
+   - \usepackage[T1]{fontenc}
+
+geometry: margin=0.5in
+
+
+Head or whatever
+
+(Report generated on r Sys.time())

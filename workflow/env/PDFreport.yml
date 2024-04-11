@@ -1,0 +1,10 @@
+name: PDFreport
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - default
+dependencies:
+  - r-rmarkdown=1.13
+  - r-data.table
+  - r-ggplot2

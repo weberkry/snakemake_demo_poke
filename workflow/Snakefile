@@ -1,0 +1,5 @@
+configfile: "config.yaml"
+configfile: "samples.yml"
+
+include: "preprocessing.snakefile"
+include: "classify.snakefile"

@@ -1,0 +1,14 @@
+name: classify
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - default
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - keras
+  - tensorflow
